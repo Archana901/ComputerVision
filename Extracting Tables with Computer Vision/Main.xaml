@@ -105,13 +105,13 @@
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722,725" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722,847" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" ApiKey="TL+kqylU+OCXFUB7rRI7DxpUE3fKZJ5bgLZObg9+2MZ6yzEVHi4Guz4uKr+IioCprtVF8LVuSS3N1ADVvoh+hQ==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="99b51c25-8b01-4f4c-bcaf-7e50b2c3894e" DisplayName="CV Screen Scope 'msedge.exe DataTables'" sap:VirtualizedContainerService.HintSize="434,702" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V5">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" ApiKey="TL+kqylU+OCXFUB7rRI7DxpUE3fKZJ5bgLZObg9+2MZ6yzEVHi4Guz4uKr+IioCprtVF8LVuSS3N1ADVvoh+hQ==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="99b51c25-8b01-4f4c-bcaf-7e50b2c3894e" DisplayName="CV Screen Scope 'msedge.exe DataTables'" sap:VirtualizedContainerService.HintSize="434,824" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V5">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -130,7 +130,8 @@
                 </uc:CvDescriptor>
               </p:CvExtractDataTableWithDescriptor.DesignTimeDescriptor>
             </p:CvExtractDataTableWithDescriptor>
-            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[dt_ExtractedData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="400,139" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Data" WorkbookPath="ExtractedData.xlsx" />
+            <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[dt_ExtractedData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="400,148" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Data" WorkbookPath="ExtractedData.xlsx" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="400,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="DataTable" />
           </Sequence>
         </ActivityAction>
       </p:CVScope.Body>
@@ -140,7 +141,7 @@
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
-            <scg:List x:TypeArguments="uc:CVCache" Capacity="4">
+            <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
               <uc:CVCache DataSent="False" DisplayName="Screen CV Extract Table - Tabl " Id="99b51c25-8b01-4f4c-bcaf-7e50b2c3894e" InformativeScreenshot="991c8d285bede3c95dbe5f3f0aadc4b5" LogicalPosition="631, 1080" OcrText="DataTables example - Scroll - horizontal _ X https://datatables.net/examples/basic_init/scroll_x.html Ui + ... CloudTables DataTables E Editor + ILualhtla Manual Download Login / Register Search . . - Vanilla JS + EthicalAds Reach your exact developer niche with GDPR compliant, contextually targeted ads Ads by EthicalAds Scroll - horizontal Using Data Tables DataTables has the ability to show tables with horizontal scrolling, The example below shows a table too wide for the containing which is very useful for when you have a wide table, but want to element with x-scrolling enabled. The CSS option of th, td { Examples constrain it to a limited horizontal display area. To enable X- white-space: nowrap; } is also set to have the text content of each Basic initialisation scrolling simply set the scrollX Option parameter to be true row on a single line (otherwise the browser will line break the text Advanced initialisation to have it fit into the available area). Styling Data sources Show 100 v entries Search: API First name Last name Position Office Age Start date Salary Ajax Server-side Airi Satou Accountant Tokyo 33 2008-11-28 $162,700 Plug-ins Angelica Ramos Chief Executive Officer (CEO) London 47 2009-10-09 $1,200,000 Manual Ashton Cox Junior Technical Author San Francisco 66 2009-01-12 $86,000 Reference Extensions Bradley Greer Software Engineer London 41 2012-10-13 $132,000 Plug-ins Brenden Wagner Software Engineer San Francisco 28 2011-06-07 $206,850 More Help Brielle Williamson Integration Specialist New York 61 2012-12-02 $372,000 Blog Bruno Nash Software Engineer London 38 2011-05-03 $163,500 Forums Caesar Vance Pre-Sales Support New York 21 2011-12-12 $106,450 Support FAQs Cara Stevens Sales Assistant New York 46 2011-12-06 $145,600 Cedric Kelly Senior Javascript Developer Edinburgh 22 2012-03-29 $433,060 Get Data Tables Download Charde Marshall Regional Director San Francisco 36 2008-10-16 $470,600 Purchase Colleen Hurst Javascript Developer San Francisco 39 2009-09-15 $205,500 Dai Rios Personnel Lead Edinburgh 35 2012-09-26 $217,500" Position="631, 1080" ScreenshotGuid="e5467e6d-b7de-4a92-a53e-25259864464c" ServerVersion="0">
                 <uc:CVCache.CvAnchorRelations>
                   <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
